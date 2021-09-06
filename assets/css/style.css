@@ -1,0 +1,49 @@
+.hero-head h1 {
+  font-weight: bold;
+}
+
+.hero-head h2 {
+  color: grey!important;
+  background-color: grey;
+  font-weight: 400;
+}
+
+.nav-link {
+  width: 100px;
+  text-align: center;
+}
+
+.nav-link.rounded-pill {
+  width: 100px;
+  text-align: center;
+}
+
+.hero-text h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-head h2 {
+  font-weight: bold;
+}
+
+.card-text {
+  font-weight: 400;
+}
+
+.col-md-12.col-lg-5.fixing-card {
+  width: 274px;
+}
+
+.col.wide {
+  width: 274px;
+}
+
+.row .wide {
+  width: 274px;
+}
+
+.btn-txt {
+  color: #fff!important;
+}
+
