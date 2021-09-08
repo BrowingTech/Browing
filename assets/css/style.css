@@ -47,3 +47,23 @@
   color: #fff!important;
 }
 
+.fancy-font p {
+  font-size: 14px;
+}
+
+.fancy-font h2 {
+  font-size: 23px;
+}
+
+@media (min-width: 576px) {
+  .fancy-font p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 576px) {
+  .fancy-font h2 {
+    font-size: 25px;
+  }
+}
+
