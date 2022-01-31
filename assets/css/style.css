@@ -74,3 +74,24 @@
   align-items: center;
   box-shadow: 1px 1px 10px white;
 }
+.container.modern-form__form-container{
+  padding: 0px 100px 0px 100px;
+}
+input.form-control.email{
+  border: 1px solid black;
+}
+.newsletter-subscribe{
+  background-color: rgb(66, 5, 43);
+}
+.text-center.newsletter{
+  color: #f2f2f2;
+  font-size: smaller;
+  font-weight: 400;
+}
+.text-center.newsletter-title{
+  color: #f2f2f2;
+}
+.smaller-text{
+  font-size: smaller;
+  font-weight: 400;
+}
