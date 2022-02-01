@@ -59,6 +59,7 @@
   .fancy-font p {
     font-size: 16px;
   }
+  
 }
 
 @media (min-width: 576px) {
@@ -94,4 +95,99 @@ input.form-control.email{
 .smaller-text{
   font-size: smaller;
   font-weight: 400;
+}
+/* about page */
+.abt-major{
+  background-image: url(../img/about/hoodie-hacker.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+span.shadow{
+  color: blue;
+  font-weight: 800 !important;
+}
+.container-fluid.cont-content{
+  background-color: rgba(0, 0, 0, .8); 
+}
+/* .container-fluid.cont-content .container{
+  padding: 30px;
+} */
+.row.dash-pics{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+
+}
+img.dash-img{
+  height: 250px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  opacity: .7;
+  box-shadow: 2px 2px 5px white;
+}
+img.dash-img.bigger{
+  flex: 4;
+}
+img.dash-img.top{
+  margin-bottom: 100px;
+}
+img.dash-img.down{
+  margin-top: 100px;
+}
+@media screen and (max-width:576px) {
+  .abt-intro{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  img.dash-img.top{
+    display: none;
+  }
+  img.dash-img.down{
+    display: none;
+  }
+  img.dash-img.bigger{
+    box-shadow: none;
+    border: none;
+    border-radius: 2px;
+    opacity: .5;
+  }
+}
+@media screen and (max-width:688px){
+  .abt-intro{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  img.dash-img.top.four{
+    display: none;
+  }
+  img.dash-img.down.five{
+    display: none;
+  }
+  img.dash-img.bigger{
+    display: none;
+  }
+  img.dash-img.bigger{
+    box-shadow: none;
+    border: none;
+    border-radius: 2px;
+    opacity: .5;
+  }
+  
 }
