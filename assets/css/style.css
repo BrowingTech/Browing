@@ -127,7 +127,7 @@ img.dash-img{
   height: 250px;
   width: 200px;
   border-radius: 5px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   padding: 0;
   margin-left: 5px;
   margin-right: 5px;
@@ -143,6 +143,81 @@ img.dash-img.top{
 img.dash-img.down{
   margin-top: 100px;
 }
+.col-12.inner-col{
+  padding: 30px;
+}
+.col-12.inner-col h4{
+  color: black;
+  text-align: center;
+}
+
+.col-12 p.inner-col-p{
+  color: grey;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0 80px 0 80px;
+}
+.col-12.col-grid{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.col-box{
+  border-radius: 2px;
+  box-shadow: 1px 1px 6px black;
+
+}
+.mosaic-text{
+  background-color: rgba(0, 0, 0, .8);
+  color: rgba(255, 255, 255, .7);
+  font-weight: 400;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+  padding: 20px;
+}
+.col-box.mosaic1{
+  background-image: url(../img/about/mosaic1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 200px;
+}
+.col-box.mosaic2{
+  background-image: url(../img/about/mosaic2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 200px;
+}
+.col-box.mosaic3{
+  background-image: url(../img/about/mosaic3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 200px;
+}
+.col-box.mosaic4{
+  background-image: url(../img/about/mosaic4.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 200px;
+
+}
+.col-box.mosaic5{
+  background-image: url(../img/about/mosaic5.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 200px;
+
+}
+
 @media screen and (max-width:576px) {
   .abt-intro{
     font-size: 20px;
@@ -164,6 +239,18 @@ img.dash-img.down{
     border-radius: 2px;
     opacity: .5;
   }
+}
+
+.row.dash-story h4{
+  color: blue;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style:double;
+}
+.row.dash-story p{
+  font-size: inherit;
+  font-weight: 400;
+  color: grey;
 }
 @media screen and (max-width:688px){
   .abt-intro{
